@@ -14,14 +14,40 @@
       <h1 class="project-name">Micro-Expression Recognition using Histogram-Based Feature Descriptors</h1>
       <h2 class="project-tagline">Satyam Dhar and Kevin Zhang</h2>
       <a href="https://github.com/sdhar1/Micro-Expression-Recognition-using-Histogram-Based-Feature-Descriptors" class="btn">View on GitHub</a>
-      <a href="https://github.com/sdhar1/Micro-Expression-Recognition-using-Histogram-Based-Feature-Descriptors/blob/gh-pages/expression-recognition-system.zip?raw=true" class="btn">Download Code</a>
+      <a href="https://github.com/sdhar1/Micro-Expression-Recognition-using-Histogram-Based-Feature-Descriptors/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/sdhar1/Micro-Expression-Recognition-using-Histogram-Based-Feature-Descriptors/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
       <h3>
 <a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h3>
 
-<p>Human facial expressions contain substantial information about how a person is feeling at any instant. People can fake their facial expressions but micro-expressions, which are short, involuntary facial expressions, can reveal a person’s underlying emotions even when the person is trying to conceal their feelings. In this project, we build a system for automatic facial expression recognition (FER) and later extend this system for micro-expression recognition (MER). For FER, we evaluate and compare performance of two different feature descriptors, Local Binary Patterns (LBP) and Local Phase Quantization (LPQ). For MER, we examine the performance of LBP on Three Orthogonal Planes (LBP-TOP) and evaluate the performance of the LPQ-TOP feature descriptor which has not been applied to this problem in the past. Our results show that LPQ and its variants perform slightly better than LBP for both facial expression recognition and micro-expression recognition in our experiments on the Extended Cohn Kanade and CASME II datasets.</p>
+<p>Human facial expressions contain substantial information about how a person is feeling at any instant. People can fake t heir facial expressions but micro-expressions, which are short, involuntary facial expressions, can reveal a person’s underlying emotions even when the person is trying to conceal their feelings. In this project, we build a system for automatic facial expression recognition (FER) and later extend this system for micro-expression recognition (MER). For FER, we evaluate and compare performance of two different feature descriptors, LBP and LPQ. For MER, we examine the performance of LBP-TOP for MER and evaluate the performance of the LPQ-TOP feature descriptor which has not been applied to this problem in the past. Our results show that LPQ performs slightly better than LBP for both facial expression recognition and micro-expression recognition in our experiments on the Cohn Kanade and CASME II datasets.</p>
+
+<h3>
+<a id="details" class="anchor" href="#details" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Details</h3>
+
+<h2>
+<a id="matlab-toolbox-dependencies" class="anchor" href="#matlab-toolbox-dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MATLAB Toolbox Dependencies</h2>
+
+<p>MATLAB Image Processing Toolbox
+MATLAB Computer Vision Toolbox
+MATLAB Communications Toolbox
+MATLAB Statistics and Machine Learning Toolbox</p>
+
+<h2>
+<a id="results" class="anchor" href="#results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h2>
+
+<p>Best prediction accuracies on CK+ database for Facial Expression Recognition:
+LPQ - 96.43 %
+LBP - 94.28 %</p>
+
+<p>Leave one out cross validation accuracy of micro-expression recognition experiments
+LBP-TOP - 51.12%<br>
+LPQ on peak frame - 45.56%<br>
+LPQ-TOP - 52.13%<br>
+LPQ-XTYT - 47.98%<br>
+LPQ-TOP + Motion Mag - 53.73%  </p>
 
 <h3>
 <a id="project-report" class="anchor" href="#project-report" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Report</h3>
